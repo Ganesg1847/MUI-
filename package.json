@@ -1,0 +1,34 @@
+{
+  "name": "gatsby",
+  "version": "5.0.0",
+  "private": true,
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.6",
+    "gatsby": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "jquery": "^3.6.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@mui/lab": "^5.0.0-alpha.100"
+  }
+}
